@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+			<Events>
+				<Event name="OnChange">ДатаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Клиент" id="7">
+			<DataPath>Объект.Клиент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КлиентКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Table name="Чек" id="13">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<Output>Enable</Output>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Чек</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ЧекКонтекстноеМеню" id="14"/>
+			<AutoCommandBar name="ЧекКоманднаяПанель" id="15"/>
+			<ExtendedTooltip name="ЧекРасширеннаяПодсказка" id="16"/>
+			<SearchStringAddition name="ЧекСтрокаПоиска" id="17">
+				<AdditionSource>
+					<Item>Чек</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЧекСтрокаПоискаКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ЧекСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ЧекСостояниеПросмотра" id="20">
+				<AdditionSource>
+					<Item>Чек</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЧекСостояниеПросмотраКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ЧекСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ЧекУправлениеПоиском" id="23">
+				<AdditionSource>
+					<Item>Чек</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ЧекУправлениеПоискомКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ЧекУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">ЧекПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ЧекНомерСтроки" id="26">
+					<DataPath>Объект.Чек.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЧекНомерСтрокиКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ЧекНомерСтрокиРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<InputField name="ЧекНоменклатура" id="29">
+					<DataPath>Объект.Чек.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЧекНоменклатураКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ЧекНоменклатураРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="OnChange">ЧекНоменклатураПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ЧекКоличество" id="32">
+					<DataPath>Объект.Чек.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЧекКоличествоКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ЧекКоличествоРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ЧекКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ЧекЦена" id="35">
+					<DataPath>Объект.Чек.Цена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЧекЦенаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ЧекЦенаРасширеннаяПодсказка" id="37"/>
+					<Events>
+						<Event name="OnChange">ЧекЦенаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ЧекСумма" id="38">
+					<DataPath>Объект.Чек.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЧекСуммаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ЧекСуммаРасширеннаяПодсказка" id="40"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="Итого" id="10">
+			<DataPath>Объект.Итого</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<HorizontalAlign>Right</HorizontalAlign>
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИтогоКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ИтогоРасширеннаяПодсказка" id="12"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Продажи</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

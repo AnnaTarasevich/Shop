@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Table name="НоменклатураТ" id="7">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.НоменклатураТ</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="НоменклатураТКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="НоменклатураТКоманднаяПанель" id="9"/>
+			<ExtendedTooltip name="НоменклатураТРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="НоменклатураТСтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>НоменклатураТ</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НоменклатураТСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="НоменклатураТСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НоменклатураТСостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>НоменклатураТ</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НоменклатураТСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="НоменклатураТСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НоменклатураТУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>НоменклатураТ</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="НоменклатураТУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="НоменклатураТУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="НоменклатураТНомерСтроки" id="20">
+					<DataPath>Объект.НоменклатураТ.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НоменклатураТНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="НоменклатураТНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="НоменклатураТНоменклатура" id="23">
+					<DataPath>Объект.НоменклатураТ.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураТНоменклатураКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="НоменклатураТНоменклатураРасширеннаяПодсказка" id="25"/>
+					<Events>
+						<Event name="OnChange">НоменклатураТНоменклатураПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="НоменклатураТСтарыйОстаток" id="26">
+					<DataPath>Объект.НоменклатураТ.УчетноеКоличество</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Старое количество</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураТСтарыйОстатокКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="НоменклатураТСтарыйОстатокРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="НоменклатураТРазница" id="29">
+					<DataPath>Объект.НоменклатураТ.Разница</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураТРазницаКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="НоменклатураТРазницаРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="НоменклатураТНовоеКоличество" id="32">
+					<DataPath>Объект.НоменклатураТ.ФактическоеКоличество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураТНовоеКоличествоКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="НоменклатураТНовоеКоличествоРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">НоменклатураТНовоеКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Инвентаризация</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
