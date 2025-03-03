@@ -36,7 +36,7 @@
 			<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<InputField name="СтавкаНДС" id="16">
-			<DataPath>Объект.СтавкаНДС</DataPath>
+			<DataPath>1/0:15dc7e72-5804-4cd5-8296-5f6656575575</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СтавкаНДСКонтекстноеМеню" id="17"/>
