@@ -3,7 +3,7 @@
 	<WorkingAreaTemplate>TwoColumnsEqualWidth</WorkingAreaTemplate>
 	<LeftColumn>
 		<Item>
-			<Form>Catalog.Номенклатура.Form.ФормаЭлемента</Form>
+			<Form>Catalog.НоменклатураСПР.Form.ФормаЭлемента</Form>
 			<Height>10</Height>
 			<Visibility>
 				<xr:Common>true</xr:Common>

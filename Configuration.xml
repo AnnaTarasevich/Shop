@@ -237,8 +237,8 @@
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
-			<ModalityUseMode>DontUse</ModalityUseMode>
-			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<ModalityUseMode>Use</ModalityUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<DatabaseTablespacesUseMode>DontUse</DatabaseTablespacesUseMode>
 			<CompatibilityMode>Version8_3_24</CompatibilityMode>
@@ -247,13 +247,16 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ПродажиИЗакупки</Subsystem>
-			<Subsystem>Склад</Subsystem>
 			<Subsystem>НСИ</Subsystem>
+			<Subsystem>Склад</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
 			<Style>Стиль</Style>
+			<Role>Администратор</Role>
+			<Role>Кассир</Role>
 			<CommonModule>РасчетСуммыВДокументе</CommonModule>
 			<CommonModule>ПодгрузкаЦен</CommonModule>
 			<CommonModule>ИнвентаризацияОМ</CommonModule>
-			<Catalog>Номенклатура</Catalog>
+			<Catalog>НоменклатураСПР</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ЕдиницыИзмерения</Catalog>
@@ -269,10 +272,15 @@
 			<Document>ВозвратТоваровПоставщику</Document>
 			<Document>ВозвратТоваровНаСклад</Document>
 			<Document>ПриходПоИнвентаризации</Document>
+			<Document>УстановкаЦен</Document>
 			<Report>ОстаткиТоваровНаСкладке</Report>
+			<Report>АнализПродаж</Report>
+			<Report>ПрайсЛист</Report>
+			<DataProcessor>ЗагрузкаДанныхИзТабличногоДокумента_УФ</DataProcessor>
 			<InformationRegister>Штрихкоды</InformationRegister>
 			<InformationRegister>ЦеныНаНоменклатуру</InformationRegister>
 			<AccumulationRegister>ДвиженияТоваров</AccumulationRegister>
+			<AccumulationRegister>ПродажиОборот</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

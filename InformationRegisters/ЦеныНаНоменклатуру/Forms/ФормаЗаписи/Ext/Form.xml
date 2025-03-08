@@ -22,7 +22,7 @@
 			</Events>
 		</InputField>
 		<InputField name="Наценка" id="7">
-			<DataPath>Запись.Наценка</DataPath>
+			<DataPath>1/0:db315b58-689b-4670-907d-0d6b244b38a6</DataPath>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -37,13 +37,13 @@
 			</Events>
 		</InputField>
 		<InputField name="ПроцентИзмененияЦена" id="10">
-			<DataPath>Запись.ПроцентИзмененияЦены</DataPath>
+			<DataPath>1/0:8eeb5618-65e7-4e84-b37d-c0dc6b0bf360</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ПроцентИзмененияЦенаКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ПроцентИзмененияЦенаРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="НоваяЦена" id="13">
-			<DataPath>Запись.НоваяЦена</DataPath>
+			<DataPath>Запись.РозничнаяЦена</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="НоваяЦенаКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="НоваяЦенаРасширеннаяПодсказка" id="15"/>

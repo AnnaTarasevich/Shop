@@ -7,13 +7,6 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Номенклатура</dataPath>
-			<field>Номенклатура</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>КоличествоНачальныйОстаток</dataPath>
 			<field>КоличествоНачальныйОстаток</field>
 			<role>
@@ -39,9 +32,16 @@
 			<dataPath>КоличествоРасход</dataPath>
 			<field>КоличествоРасход</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НоменклатураР</dataPath>
+			<field>НоменклатураР</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ДвиженияТоваровОстаткиИОбороты.Номенклатура КАК Номенклатура,
+	ДвиженияТоваровОстаткиИОбороты.НоменклатураР КАК НоменклатураР,
 	ДвиженияТоваровОстаткиИОбороты.КоличествоНачальныйОстаток КАК КоличествоНачальныйОстаток,
 	ДвиженияТоваровОстаткиИОбороты.КоличествоКонечныйОстаток КАК КоличествоКонечныйОстаток,
 	ДвиженияТоваровОстаткиИОбороты.КоличествоПриход КАК КоличествоПриход,
@@ -50,7 +50,7 @@
 	РегистрНакопления.ДвиженияТоваров.ОстаткиИОбороты КАК ДвиженияТоваровОстаткиИОбороты
 
 УПОРЯДОЧИТЬ ПО
-	Номенклатура,
+	НоменклатураР,
 	КоличествоНачальныйОстаток,
 	КоличествоПриход,
 	КоличествоРасход,
@@ -96,7 +96,7 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Номенклатура</dcsset:field>
+					<dcsset:field>НоменклатураР</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>КоличествоНачальныйОстаток</dcsset:field>
@@ -111,16 +111,6 @@
 					<dcsset:field>КоличествоКонечныйОстаток</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
-			<dcsset:dataParameters>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>НачалоПериода</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>КонецПериода</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-				</dcscor:item>
-			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
