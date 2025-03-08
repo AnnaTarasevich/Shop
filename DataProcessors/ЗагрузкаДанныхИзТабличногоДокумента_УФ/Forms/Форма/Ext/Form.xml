@@ -274,11 +274,6 @@
 									<CommandName>Form.Command.Открыть</CommandName>
 									<ExtendedTooltip name="ОткрытьExtendedTooltip" id="144"/>
 								</Button>
-								<Button name="Сохранить" id="22">
-									<Type>CommandBarButton</Type>
-									<CommandName>Form.Command.Сохранить</CommandName>
-									<ExtendedTooltip name="СохранитьExtendedTooltip" id="145"/>
-								</Button>
 								<Button name="Обновить" id="23">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.Обновить</CommandName>
@@ -1469,26 +1464,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаСобытия</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-		<Command name="Сохранить" id="14">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Сохранить</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Сохранить</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>StdPicture.SaveFile</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action>КомандаСохранить</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СохранитьЗначения" id="15">
