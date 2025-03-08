@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="НаценкаР" id="7">
+			<DataPath>Объект.НаценкаР</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаценкаРКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="НаценкаРРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="OnChange">НаценкаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<Table name="Установка" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Установка</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="УстановкаКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="УстановкаКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="УстановкаРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="УстановкаСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>Установка</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="УстановкаСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="УстановкаСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="УстановкаСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>Установка</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="УстановкаСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="УстановкаСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="УстановкаУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>Установка</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="УстановкаУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="УстановкаУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="УстановкаНомерСтроки" id="23">
+					<DataPath>Объект.Установка.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="УстановкаНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="УстановкаНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="УстановкаНоменклатураД" id="26">
+					<DataPath>Объект.Установка.НоменклатураД</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="УстановкаНоменклатураДКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="УстановкаНоменклатураДРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<ColumnGroup name="Учетная" id="47">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учетная</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учетная</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<ShowInHeader>true</ShowInHeader>
+					<ExtendedTooltip name="УчетнаяРасширеннаяПодсказка" id="48"/>
+					<ChildItems>
+						<InputField name="УстановкаСтараяЦенаЗакупочная" id="29">
+							<DataPath>Объект.Установка.СтараяЦенаЗакупочная</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="УстановкаСтараяЦенаЗакупочнаяКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="УстановкаСтараяЦенаЗакупочнаяРасширеннаяПодсказка" id="31"/>
+						</InputField>
+						<InputField name="УстановкаПроцентИзмененияСтаройЦены" id="32">
+							<DataPath>Объект.Установка.ПроцентИзмененияСтаройЦены</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="УстановкаПроцентИзмененияСтаройЦеныКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="УстановкаПроцентИзмененияСтаройЦеныРасширеннаяПодсказка" id="34"/>
+						</InputField>
+						<InputField name="УстановкаНоваяЦенаЗакупочная" id="35">
+							<DataPath>Объект.Установка.НоваяЦенаЗакупочная</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="УстановкаНоваяЦенаЗакупочнаяКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="УстановкаНоваяЦенаЗакупочнаяРасширеннаяПодсказка" id="37"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="Розничная" id="49">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Розничная</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Розничная</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<ShowInHeader>true</ShowInHeader>
+					<ExtendedTooltip name="РозничнаяРасширеннаяПодсказка" id="50"/>
+					<ChildItems>
+						<InputField name="УстановкаСтараяЦенаРозничная" id="38">
+							<DataPath>Объект.Установка.СтараяЦенаРозничная</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="УстановкаСтараяЦенаРозничнаяКонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="УстановкаСтараяЦенаРозничнаяРасширеннаяПодсказка" id="40"/>
+						</InputField>
+						<InputField name="УстановкаНаценка" id="41">
+							<DataPath>Объект.Установка.Наценка</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="УстановкаНаценкаКонтекстноеМеню" id="42"/>
+							<ExtendedTooltip name="УстановкаНаценкаРасширеннаяПодсказка" id="43"/>
+						</InputField>
+						<InputField name="УстановкаНоваяЦенаРозничная" id="44">
+							<DataPath>Объект.Установка.НоваяЦенаРозничная</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="УстановкаНоваяЦенаРозничнаяКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="УстановкаНоваяЦенаРозничнаяРасширеннаяПодсказка" id="46"/>
+							<Events>
+								<Event name="OnChange">УстановкаНоваяЦенаРозничнаяПриИзменении</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.УстановкаЦен</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

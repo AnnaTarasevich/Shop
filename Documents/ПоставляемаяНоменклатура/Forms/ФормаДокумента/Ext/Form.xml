@@ -117,7 +117,15 @@
 			<DataPath>Объект.Поставка</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ПоставкаКонтекстноеМеню" id="26"/>
-			<AutoCommandBar name="ПоставкаКоманднаяПанель" id="27"/>
+			<AutoCommandBar name="ПоставкаКоманднаяПанель" id="27">
+				<ChildItems>
+					<Button name="ПоставкаВыгрузить" id="70">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Выгрузить</CommandName>
+						<ExtendedTooltip name="ПоставкаВыгрузитьРасширеннаяПодсказка" id="71"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
 			<ExtendedTooltip name="ПоставкаРасширеннаяПодсказка" id="28"/>
 			<SearchStringAddition name="ПоставкаСтрокаПоиска" id="29">
 				<AdditionSource>
@@ -233,4 +241,21 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="Выгрузить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Выгрузить</Action>
+		</Command>
+	</Commands>
 </Form>

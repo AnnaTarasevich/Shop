@@ -173,7 +173,9 @@
 				</xr:StandardAttribute>
 			</StandardAttributes>
 			<Characteristics/>
-			<BasedOn/>
+			<BasedOn>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Продажи</xr:Item>
+			</BasedOn>
 			<InputByString>
 				<xr:Field>Document.ВозвратТоваровНаСклад.StandardAttribute.Number</xr:Field>
 			</InputByString>
@@ -359,7 +361,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+								<v8:Type>cfg:CatalogRef.НоменклатураСПР</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
