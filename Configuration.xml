@@ -282,6 +282,7 @@
 			<Report>ПрайсЛист</Report>
 			<Report>ИсторияОборотов</Report>
 			<Report>ИсторияПоставок</Report>
+			<DataProcessor>ОбменДаннымиXML</DataProcessor>
 			<InformationRegister>Штрихкоды</InformationRegister>
 			<InformationRegister>ЦеныНаНоменклатуру</InformationRegister>
 			<AccumulationRegister>ДвиженияТоваров</AccumulationRegister>
