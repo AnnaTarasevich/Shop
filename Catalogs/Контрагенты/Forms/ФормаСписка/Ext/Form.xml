@@ -87,6 +87,11 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
+				<LabelField name="НомерТелефона" id="42">
+					<DataPath>Список.НомерТелефона</DataPath>
+					<ContextMenu name="НомерТелефонаКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="НомерТелефонаРасширеннаяПодсказка" id="44"/>
+				</LabelField>
 				<LabelField name="ИНН" id="24">
 					<DataPath>Список.ИНН</DataPath>
 					<ContextMenu name="ИННКонтекстноеМеню" id="25"/>

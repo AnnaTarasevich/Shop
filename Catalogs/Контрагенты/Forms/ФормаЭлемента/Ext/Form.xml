@@ -18,6 +18,12 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="НомерТелефона" id="25">
+			<DataPath>Объект.НомерТелефона</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерТелефонаКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="НомерТелефонаРасширеннаяПодсказка" id="27"/>
+		</InputField>
 		<InputField name="ИНН" id="7">
 			<DataPath>Объект.ИНН</DataPath>
 			<EditMode>EnterOnInput</EditMode>
