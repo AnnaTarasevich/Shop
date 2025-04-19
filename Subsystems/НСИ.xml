@@ -29,7 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ИсторияПоставок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменДаннымиXML</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">3e281b42-77bb-42de-99db-efff63f91a85</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.НоменклатураИШтрихкоды</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

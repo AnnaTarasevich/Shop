@@ -75,10 +75,10 @@
 		<Metadata name="CommonModule.ПодгрузкаЦен.Module" id="871c6d8d-4803-4a5c-816d-600a1ee3eb5d.0" configVersion="704019b4a0f4fe459b11256dfb91f3e800000000"/>
 		<Metadata name="CommonModule.РасчетСуммыВДокументе" id="f65b23d3-3e86-4587-ab9f-26252b6fe165" configVersion="e49466d885c0be4097ed6f0131a793c400000000"/>
 		<Metadata name="CommonModule.РасчетСуммыВДокументе.Module" id="f65b23d3-3e86-4587-ab9f-26252b6fe165.0" configVersion="b27dcf6d9a5d4f4eba9c0c835911a46200000000"/>
-		<Metadata name="Configuration.МагазинУДома" id="a904e9ee-3b46-4134-8742-de4c86769f2c" configVersion="72768c595dce97488ee08fa75511227000000000"/>
+		<Metadata name="Configuration.МагазинУДома" id="a904e9ee-3b46-4134-8742-de4c86769f2c" configVersion="2adeeee824d70048a655640aa29add5100000000"/>
 		<Metadata name="Configuration.МагазинУДома.ClientApplicationInterface" id="e917b7ce-0371-4d17-8ae9-5aad07306f49.b" configVersion="50baef35dc73874c9d51ae232bcefded00000000"/>
 		<Metadata name="Configuration.МагазинУДома.CommandInterface" id="e917b7ce-0371-4d17-8ae9-5aad07306f49.a" configVersion="e04af5da0fdb3e46accb9c1c89e4761800000000"/>
-		<Metadata name="Configuration.МагазинУДома.HomePageWorkArea" id="e917b7ce-0371-4d17-8ae9-5aad07306f49.8" configVersion="1918a15c55625342b14a5a9d488e1a8300000000"/>
+		<Metadata name="Configuration.МагазинУДома.HomePageWorkArea" id="e917b7ce-0371-4d17-8ae9-5aad07306f49.8" configVersion="cd177c39f4ef8a43b28d58336ea111f800000000"/>
 		<Metadata name="Configuration.МагазинУДома.Logo" id="e917b7ce-0371-4d17-8ae9-5aad07306f49.1" configVersion="ccda929849c6c54b96e875c2c95bd92600000000"/>
 		<Metadata name="Configuration.МагазинУДома.MainSectionCommandInterface" id="e917b7ce-0371-4d17-8ae9-5aad07306f49.9" configVersion="361024441596cc469733e55b9557596300000000"/>
 		<Metadata name="Configuration.МагазинУДома.ManagedApplicationModule" id="e917b7ce-0371-4d17-8ae9-5aad07306f49.6" configVersion="21c017eb37d3f74ab2f8332455bd3bf400000000"/>
@@ -266,12 +266,12 @@
 		<Metadata name="Report.ПрайсЛист.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="ca07d056-baec-4aa6-94ea-0d2b314f911b.0" configVersion="0037f82a758fd94bbf11f2c0c02e366900000000"/>
 		<Metadata name="Role.Администратор" id="afd225f9-754b-4c39-90bb-0d028acd7c46" configVersion="be5fc4bb5747c149905a60d022cac6dd00000000"/>
 		<Metadata name="Role.Администратор.Rights" id="afd225f9-754b-4c39-90bb-0d028acd7c46.0" configVersion="6ed81402109cfc4890378ef75f06cbeb00000000"/>
-		<Metadata name="Role.Кассир" id="f797ecbd-9964-419b-9f57-6e9f3c52e70d" configVersion="81a580ce1004e0488a36f87d234a4da600000000"/>
-		<Metadata name="Role.Кассир.Rights" id="f797ecbd-9964-419b-9f57-6e9f3c52e70d.0" configVersion="18de8029d157ad42ac4fd45cedbb734800000000"/>
+		<Metadata name="Role.Кассир" id="f797ecbd-9964-419b-9f57-6e9f3c52e70d" configVersion="0d68a608d1f4884b8088cd66cade387500000000"/>
+		<Metadata name="Role.Кассир.Rights" id="f797ecbd-9964-419b-9f57-6e9f3c52e70d.0" configVersion="9c35afebc292d54cba77f7710e471aad00000000"/>
 		<Metadata name="Style.Стиль" id="945e3377-e927-451f-be71-855132b9c11d" configVersion="947fac898173d942aa411fff1c01bd0900000000"/>
 		<Metadata name="Style.Стиль.Style" id="945e3377-e927-451f-be71-855132b9c11d.0" configVersion="49b3f45404b7eb43a04a938f0feaebb300000000"/>
 		<Metadata name="Subsystem.НСИ" id="06bde664-860b-4c4d-862b-cd4524fe392d" configVersion="54d971fc961d4748a66290a39385013f00000000"/>
-		<Metadata name="Subsystem.ПродажиИЗакупки" id="f941ae8d-a300-403b-bb8a-98f2043f2aab" configVersion="b5dfcc718082c641bc30a419e8641a5800000000"/>
+		<Metadata name="Subsystem.ПродажиИЗакупки" id="f941ae8d-a300-403b-bb8a-98f2043f2aab" configVersion="58597419230fdc4dacc6cada21e19a1600000000"/>
 		<Metadata name="Subsystem.ПродажиИЗакупки.CommandInterface" id="f941ae8d-a300-403b-bb8a-98f2043f2aab.1" configVersion="c89d3c42bf1ddc4ea165430dbad9505400000000"/>
 		<Metadata name="Subsystem.Склад" id="50dbe2a3-22f9-4457-b087-cd6945066415" configVersion="77dc049473218349afb32f0653704b2300000000"/>
 		<Metadata name="Subsystem.Склад.CommandInterface" id="50dbe2a3-22f9-4457-b087-cd6945066415.1" configVersion="a301a245f98cf64b9d26f3cf98c1227000000000"/>

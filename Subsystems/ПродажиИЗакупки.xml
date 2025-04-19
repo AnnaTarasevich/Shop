@@ -23,7 +23,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныНаНоменклатуру</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.АнализПродаж</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПродажиОборот</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаЦен</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПрайсЛист</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ИсторияОборотов</xr:Item>
 			</Content>
