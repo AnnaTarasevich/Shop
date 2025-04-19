@@ -33,7 +33,7 @@
 			<ExtendedTooltip name="ПолРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="Магазин" id="13">
-			<DataPath>Объект.Магазин</DataPath>
+			<DataPath>1/0:5c4dcdb0-939b-47da-bd8b-e27461265c20</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="МагазинКонтекстноеМеню" id="14"/>
