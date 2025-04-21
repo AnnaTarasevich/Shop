@@ -83,8 +83,8 @@
 		<Metadata name="Configuration.МагазинУДома.ManagedApplicationModule" id="e917b7ce-0371-4d17-8ae9-5aad07306f49.6" configVersion="21c017eb37d3f74ab2f8332455bd3bf400000000"/>
 		<Metadata name="Configuration.МагазинУДома.Splash" id="e917b7ce-0371-4d17-8ae9-5aad07306f49.2" configVersion="ab511940164a154daee0bcb63910393a00000000"/>
 		<Metadata name="DataProcessor.ОбменДаннымиXML" id="8cfea937-a987-45ad-96f1-7fe527f5b940" configVersion="05d38a387dc2974cb262defa95ebb62300000000"/>
-		<Metadata name="DataProcessor.ОбменДаннымиXML.Form.Форма" id="df28ffe7-0227-44d4-898a-d3c56dc14751" configVersion="e0733b16f3aeb044b11e69584152352c00000000"/>
-		<Metadata name="DataProcessor.ОбменДаннымиXML.Form.Форма.Form" id="df28ffe7-0227-44d4-898a-d3c56dc14751.0" configVersion="d1da422b3c4c3e419899172a1b7cd8b100000000"/>
+		<Metadata name="DataProcessor.ОбменДаннымиXML.Form.Форма" id="df28ffe7-0227-44d4-898a-d3c56dc14751" configVersion="a6037009e7eac545bca0a8620064ef5600000000"/>
+		<Metadata name="DataProcessor.ОбменДаннымиXML.Form.Форма.Form" id="df28ffe7-0227-44d4-898a-d3c56dc14751.0" configVersion="268514fc2c4b8d4e8de7f71fde59d18a00000000"/>
 		<Metadata name="Document.ВозвратТоваровНаСклад" id="820b8530-075e-43ae-9e81-f2298a3a1852" configVersion="39fedc75b1c7cd43b52431d34c221e7700000000">
 			<Metadata name="Document.ВозвратТоваровНаСклад.TabularSection.ТоварыНаСклад.Attribute.Причина" id="3d2f64a8-4b94-44e8-bd5f-a577b23a2488"/>
 			<Metadata name="Document.ВозвратТоваровНаСклад.TabularSection.ТоварыНаСклад.Attribute.Номенклатура" id="4c533201-388b-41bf-beab-629ba7bf5967"/>
@@ -174,7 +174,7 @@
 		<Metadata name="Document.ПриходПоИнвентаризации.ObjectModule" id="89bddfd5-6966-41c9-94a4-14b2bcc13852.0" configVersion="75d90614475846489091f526141037b500000000"/>
 		<Metadata name="Document.ПриходПоИнвентаризации.Template.Печать" id="84a775bc-b562-4018-bdef-1cd654b52522" configVersion="74cebc9f0c1aab42ace97417b39bf2c600000000"/>
 		<Metadata name="Document.ПриходПоИнвентаризации.Template.Печать.Template" id="84a775bc-b562-4018-bdef-1cd654b52522.0" configVersion="71d504bb1fb0084ba7b936dd65e558e700000000"/>
-		<Metadata name="Document.Продажи" id="e114f003-06b5-4367-8873-4510ae614ad1" configVersion="245c34a8f9d9db42a05b554133a2fe8700000000">
+		<Metadata name="Document.Продажи" id="e114f003-06b5-4367-8873-4510ae614ad1" configVersion="9624bae20cce634c8004b88017e3c34800000000">
 			<Metadata name="Document.Продажи.Attribute.Итого" id="03476381-5966-499c-a52b-534a86df851e"/>
 			<Metadata name="Document.Продажи.TabularSection.Чек.Attribute.Количество" id="399b817d-c5dd-4f6b-a8cd-a2734a8812fd"/>
 			<Metadata name="Document.Продажи.Attribute.Клиент" id="61e67b24-3359-4bfc-b6f6-7c1c85f253db"/>
@@ -188,7 +188,7 @@
 		<Metadata name="Document.Продажи.Form.ФормаДокумента" id="a718a251-26ad-4ac7-8ff9-c3d6f4f54d8d" configVersion="20fd8def98f7384689f94279731170c200000000"/>
 		<Metadata name="Document.Продажи.Form.ФормаДокумента.Form" id="a718a251-26ad-4ac7-8ff9-c3d6f4f54d8d.0" configVersion="e683b7245ba9f042b49253e23637f7be00000000"/>
 		<Metadata name="Document.Продажи.ManagerModule" id="e114f003-06b5-4367-8873-4510ae614ad1.2" configVersion="df0da4c78703c847892007d99bc9d6ae00000000"/>
-		<Metadata name="Document.Продажи.ObjectModule" id="e114f003-06b5-4367-8873-4510ae614ad1.0" configVersion="780c39b06749b14f8e5145598d6b37de00000000"/>
+		<Metadata name="Document.Продажи.ObjectModule" id="e114f003-06b5-4367-8873-4510ae614ad1.0" configVersion="8438e0c0fbffe94e88138747329d207d00000000"/>
 		<Metadata name="Document.Продажи.Template.Печать" id="0c62d819-35f1-4126-b469-f82763f8b005" configVersion="02d463f3a5219c4c8d7f847e30c41ead00000000"/>
 		<Metadata name="Document.Продажи.Template.Печать.Template" id="0c62d819-35f1-4126-b469-f82763f8b005.0" configVersion="4251399bc1d5794fb957ac937587e04b00000000"/>
 		<Metadata name="Document.СписаниеТоваров" id="e4dd8328-2635-4ede-b113-b1a75dd912c1" configVersion="ee10296c768e7046b705858485d1526e00000000">
