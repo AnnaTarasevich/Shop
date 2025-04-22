@@ -72,6 +72,12 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
+			<index>10</index>
+			<column>
+				<formatIndex>9</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
 			<index>11</index>
 			<column>
 				<formatIndex>9</formatIndex>
@@ -1637,7 +1643,7 @@
 		<width>299</width>
 	</format>
 	<format>
-		<width>73</width>
+		<width>125</width>
 	</format>
 	<format>
 		<width>88</width>
@@ -1673,7 +1679,7 @@
 		<width>298</width>
 	</format>
 	<format>
-		<width>110</width>
+		<width>126</width>
 	</format>
 	<format>
 		<width>272</width>
