@@ -83,8 +83,8 @@
 		<Metadata name="Configuration.МагазинУДома.ManagedApplicationModule" id="e917b7ce-0371-4d17-8ae9-5aad07306f49.6" configVersion="21c017eb37d3f74ab2f8332455bd3bf400000000"/>
 		<Metadata name="Configuration.МагазинУДома.Splash" id="e917b7ce-0371-4d17-8ae9-5aad07306f49.2" configVersion="ab511940164a154daee0bcb63910393a00000000"/>
 		<Metadata name="DataProcessor.ОбменДаннымиXML" id="8cfea937-a987-45ad-96f1-7fe527f5b940" configVersion="05d38a387dc2974cb262defa95ebb62300000000"/>
-		<Metadata name="DataProcessor.ОбменДаннымиXML.Form.Форма" id="df28ffe7-0227-44d4-898a-d3c56dc14751" configVersion="a6037009e7eac545bca0a8620064ef5600000000"/>
-		<Metadata name="DataProcessor.ОбменДаннымиXML.Form.Форма.Form" id="df28ffe7-0227-44d4-898a-d3c56dc14751.0" configVersion="268514fc2c4b8d4e8de7f71fde59d18a00000000"/>
+		<Metadata name="DataProcessor.ОбменДаннымиXML.Form.Форма" id="df28ffe7-0227-44d4-898a-d3c56dc14751" configVersion="3812b972061d8944ac85b14092a855ea00000000"/>
+		<Metadata name="DataProcessor.ОбменДаннымиXML.Form.Форма.Form" id="df28ffe7-0227-44d4-898a-d3c56dc14751.0" configVersion="b3ebeadef41d144ba190d12c1d6c235a00000000"/>
 		<Metadata name="Document.ВозвратТоваровНаСклад" id="820b8530-075e-43ae-9e81-f2298a3a1852" configVersion="bc5f96820b3f6c4fa72e74903594849c00000000">
 			<Metadata name="Document.ВозвратТоваровНаСклад.TabularSection.ТоварыНаСклад.Attribute.Причина" id="3d2f64a8-4b94-44e8-bd5f-a577b23a2488"/>
 			<Metadata name="Document.ВозвратТоваровНаСклад.TabularSection.ТоварыНаСклад.Attribute.Номенклатура" id="4c533201-388b-41bf-beab-629ba7bf5967"/>
@@ -265,8 +265,8 @@
 		<Metadata name="Report.ПрайсЛист.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="ca07d056-baec-4aa6-94ea-0d2b314f911b.0" configVersion="931fbc202c8ed74aa360847054102afa00000000"/>
 		<Metadata name="Role.Администратор" id="afd225f9-754b-4c39-90bb-0d028acd7c46" configVersion="be5fc4bb5747c149905a60d022cac6dd00000000"/>
 		<Metadata name="Role.Администратор.Rights" id="afd225f9-754b-4c39-90bb-0d028acd7c46.0" configVersion="6ed81402109cfc4890378ef75f06cbeb00000000"/>
-		<Metadata name="Role.Кассир" id="f797ecbd-9964-419b-9f57-6e9f3c52e70d" configVersion="0d68a608d1f4884b8088cd66cade387500000000"/>
-		<Metadata name="Role.Кассир.Rights" id="f797ecbd-9964-419b-9f57-6e9f3c52e70d.0" configVersion="9c35afebc292d54cba77f7710e471aad00000000"/>
+		<Metadata name="Role.Кассир" id="f797ecbd-9964-419b-9f57-6e9f3c52e70d" configVersion="980ddc0d459987498cef6f60f914041200000000"/>
+		<Metadata name="Role.Кассир.Rights" id="f797ecbd-9964-419b-9f57-6e9f3c52e70d.0" configVersion="ecca14c9448f134c8ed5a80e087f077d00000000"/>
 		<Metadata name="Style.Стиль" id="945e3377-e927-451f-be71-855132b9c11d" configVersion="947fac898173d942aa411fff1c01bd0900000000"/>
 		<Metadata name="Style.Стиль.Style" id="945e3377-e927-451f-be71-855132b9c11d.0" configVersion="49b3f45404b7eb43a04a938f0feaebb300000000"/>
 		<Metadata name="Subsystem.НСИ" id="06bde664-860b-4c4d-862b-cd4524fe392d" configVersion="54d971fc961d4748a66290a39385013f00000000"/>
