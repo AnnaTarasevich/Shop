@@ -19,25 +19,11 @@
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="СкладПоступления" id="10">
-			<DataPath>Объект.СкладПоступления</DataPath>
+			<DataPath>Объект.Склад</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СкладПоступленияКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="СкладПоступленияРасширеннаяПодсказка" id="12"/>
-		</InputField>
-		<InputField name="СкладПродажи" id="13">
-			<DataPath>Объект.СкладПродажи</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="СкладПродажиКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="СкладПродажиРасширеннаяПодсказка" id="15"/>
-		</InputField>
-		<InputField name="ТипОбъекта" id="16">
-			<DataPath>Объект.ТипОбъекта</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ТипОбъектаКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="ТипОбъектаРасширеннаяПодсказка" id="18"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>
