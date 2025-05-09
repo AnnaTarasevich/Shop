@@ -277,7 +277,7 @@
 			<Document>ВозвратТоваровНаСклад</Document>
 			<Document>ПриходПоИнвентаризации</Document>
 			<Document>УстановкаЦен</Document>
-			<Report>ОстаткиТоваровНаСкладке</Report>
+			<Report>ОстаткиТоваровНаСкладе</Report>
 			<Report>АнализПродаж</Report>
 			<Report>ПрайсЛист</Report>
 			<Report>ИсторияОборотов</Report>

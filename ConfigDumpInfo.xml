@@ -57,12 +57,13 @@
 		</Metadata>
 		<Metadata name="Catalog.Склады.Form.ФормаЭлемента" id="8d09df62-7ab4-4fb1-9a64-7ea56da0bdbe" configVersion="d8c8a631568add419538c2cbdd27d60900000000"/>
 		<Metadata name="Catalog.Склады.Form.ФормаЭлемента.Form" id="8d09df62-7ab4-4fb1-9a64-7ea56da0bdbe.0" configVersion="a5e41644d57e7c499b397d89cddbfe0c00000000"/>
-		<Metadata name="Catalog.Сотрудники" id="45c0dce1-033c-4a67-a79b-51188779902d" configVersion="cec5ffa2b5914b4287749496e24f672200000000">
+		<Metadata name="Catalog.Сотрудники" id="45c0dce1-033c-4a67-a79b-51188779902d" configVersion="c6570af86efe7c4093aeaf491b1ccc7a00000000">
 			<Metadata name="Catalog.Сотрудники.Attribute.Пол" id="170359a4-365d-4fcb-8dd9-7140a19f039b"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.ДатаРождения" id="db23825c-3f49-43f3-ac34-2d6800f40801"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.НомерТелефона" id="fc14a282-9b23-455d-8c7a-d7049dc0b5f4"/>
 		</Metadata>
-		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="870d573d-f191-4761-8b56-f4329e6f4ce0" configVersion="3b25bb1a3ae98b4c84cea91f5e808d2400000000"/>
-		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="870d573d-f191-4761-8b56-f4329e6f4ce0.0" configVersion="7ce84717a4160c48b31d0039d7ec666300000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="870d573d-f191-4761-8b56-f4329e6f4ce0" configVersion="4afdb63d8050654e99e0163a5abefc3800000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="870d573d-f191-4761-8b56-f4329e6f4ce0.0" configVersion="e535b5ca2ebcce48a9cb60acb76b4f2100000000"/>
 		<Metadata name="Catalog.ТоварныеГруппы" id="c8798ad6-b03f-4353-9a5b-a32b8d3d8510" configVersion="09040df48c960247b4a298bbf283b66e00000000"/>
 		<Metadata name="Catalog.ТоварныеГруппы.Form.ФормаЭлемента" id="fe63e700-924e-4342-a11b-81a50ce299cb" configVersion="c0f43e7af1c6d0408a11931bf8c001dd00000000"/>
 		<Metadata name="Catalog.ТоварныеГруппы.Form.ФормаЭлемента.Form" id="fe63e700-924e-4342-a11b-81a50ce299cb.0" configVersion="fdf0b8555060db42ae1ca4f84918db6400000000"/>
@@ -255,9 +256,9 @@
 		<Metadata name="Report.НоменклатураИШтрихкоды" id="ef57d6f2-e628-4fb8-b653-76e4034f0a35" configVersion="68fa1a95a7377b46b1a48cdd09b615ff00000000"/>
 		<Metadata name="Report.НоменклатураИШтрихкоды.Template.ОсновнаяСхемаКомпоновкиДанных" id="d439b717-a865-4442-9fb2-914edbedc691" configVersion="b6eb7819b14fce46996ded03967716b300000000"/>
 		<Metadata name="Report.НоменклатураИШтрихкоды.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="d439b717-a865-4442-9fb2-914edbedc691.0" configVersion="233fedd567d2d14ab55f2cd826ccfead00000000"/>
-		<Metadata name="Report.ОстаткиТоваровНаСкладке" id="79297188-5c59-4a43-8de4-8e06c354d475" configVersion="d6ee31f146b86f45800a5bdeb3aef8ae00000000"/>
-		<Metadata name="Report.ОстаткиТоваровНаСкладке.Template.ОсновнаяСхемаКомпоновкиДанных" id="aa85ba9f-2500-4f94-a7ae-cd8a2b87f267" configVersion="a57b33bcbcd94441bfbe29aa23eeb01a00000000"/>
-		<Metadata name="Report.ОстаткиТоваровНаСкладке.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="aa85ba9f-2500-4f94-a7ae-cd8a2b87f267.0" configVersion="84cf2ed310b18541987567ae06d74b6800000000"/>
+		<Metadata name="Report.ОстаткиТоваровНаСкладе" id="79297188-5c59-4a43-8de4-8e06c354d475" configVersion="4c96bd85b14b6b4e9e5844469838b99f00000000"/>
+		<Metadata name="Report.ОстаткиТоваровНаСкладе.Template.ОсновнаяСхемаКомпоновкиДанных" id="aa85ba9f-2500-4f94-a7ae-cd8a2b87f267" configVersion="a57b33bcbcd94441bfbe29aa23eeb01a00000000"/>
+		<Metadata name="Report.ОстаткиТоваровНаСкладе.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="aa85ba9f-2500-4f94-a7ae-cd8a2b87f267.0" configVersion="84cf2ed310b18541987567ae06d74b6800000000"/>
 		<Metadata name="Report.ПрайсЛист" id="4d0b28c6-ff5a-4d0a-83dd-079907e9f4f3" configVersion="99ea1465b1451b418e34b78ab33478d900000000"/>
 		<Metadata name="Report.ПрайсЛист.Template.ОсновнаяСхемаКомпоновкиДанных" id="ca07d056-baec-4aa6-94ea-0d2b314f911b" configVersion="f2063790909e7c4788dee48e5679b0cf00000000"/>
 		<Metadata name="Report.ПрайсЛист.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="ca07d056-baec-4aa6-94ea-0d2b314f911b.0" configVersion="931fbc202c8ed74aa360847054102afa00000000"/>
