@@ -45,6 +45,12 @@
 			<ContextMenu name="ОКПОКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ОКПОРасширеннаяПодсказка" id="15"/>
 		</InputField>
+		<InputField name="Адрес" id="28">
+			<DataPath>Объект.Адрес</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="АдресКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="30"/>
+		</InputField>
 		<InputField name="ПравовойСтатус" id="16">
 			<DataPath>Объект.ПравовойСтатус</DataPath>
 			<EditMode>EnterOnInput</EditMode>

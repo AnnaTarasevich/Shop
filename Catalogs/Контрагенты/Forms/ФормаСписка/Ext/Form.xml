@@ -99,6 +99,11 @@
 					<ContextMenu name="ОКПОКонтекстноеМеню" id="31"/>
 					<ExtendedTooltip name="ОКПОРасширеннаяПодсказка" id="32"/>
 				</LabelField>
+				<LabelField name="Адрес" id="45">
+					<DataPath>Список.Адрес</DataPath>
+					<ContextMenu name="АдресКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="47"/>
+				</LabelField>
 				<CheckBoxField name="Покупатель" id="33">
 					<DataPath>Список.Покупатель</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
