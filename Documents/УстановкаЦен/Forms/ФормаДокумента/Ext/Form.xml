@@ -162,6 +162,9 @@
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="УстановкаНаценкаКонтекстноеМеню" id="42"/>
 							<ExtendedTooltip name="УстановкаНаценкаРасширеннаяПодсказка" id="43"/>
+							<Events>
+								<Event name="OnChange">УстановкаНаценкаПриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="УстановкаНоваяЦенаРозничная" id="44">
 							<DataPath>Объект.Установка.НоваяЦенаРозничная</DataPath>
