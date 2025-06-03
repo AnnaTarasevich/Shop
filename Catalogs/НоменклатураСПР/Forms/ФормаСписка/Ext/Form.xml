@@ -9,11 +9,21 @@
 			</Button>
 			<Button name="ФормаВыгрузить" id="24">
 				<Type>CommandBarButton</Type>
+				<UserVisible>
+					<xr:Common>false</xr:Common>
+					<xr:Value name="Role.Администратор">true</xr:Value>
+					<xr:Value name="Role.Кассир">false</xr:Value>
+				</UserVisible>
 				<CommandName>Form.Command.Выгрузить</CommandName>
 				<ExtendedTooltip name="ФормаВыгрузитьРасширеннаяПодсказка" id="25"/>
 			</Button>
 			<Button name="ФормаЗагрузить" id="26">
 				<Type>CommandBarButton</Type>
+				<UserVisible>
+					<xr:Common>false</xr:Common>
+					<xr:Value name="Role.Администратор">true</xr:Value>
+					<xr:Value name="Role.Кассир">false</xr:Value>
+				</UserVisible>
 				<CommandName>Form.Command.Загрузить</CommandName>
 				<ExtendedTooltip name="ФормаЗагрузитьРасширеннаяПодсказка" id="27"/>
 			</Button>
