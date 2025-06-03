@@ -64,6 +64,10 @@
 	<object>
 		<name>Catalog.Контрагенты.Attribute.Поставщик</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -170,6 +174,17 @@
 	</object>
 	<object>
 		<name>Catalog.НоменклатураСПР.StandardAttribute.Code</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Контрагенты.Attribute.Адрес</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
